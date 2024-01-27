@@ -1,0 +1,16 @@
+.content {
+  text-align: center;  
+}
+
+.chart{
+  font-weight: bold;
+  display: inline-block;
+  width: 45%;
+  opacity: 60%;
+}
+.chart:nth-last-child(odd){
+  padding-top: 10px;
+}
+.chart:hover{
+  opacity: 100%;
+}
